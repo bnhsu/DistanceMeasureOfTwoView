@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GroupView_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26ce61" >
+
+    <com.itri.canvas.CircleCanvas
+        android:id="@+id/circle_1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginLeft="190dp" />
+
+    <com.itri.canvas.CircleCanvas
+        android:id="@+id/circle_2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginLeft="190dp"
+        />
+
+</RelativeLayout>
