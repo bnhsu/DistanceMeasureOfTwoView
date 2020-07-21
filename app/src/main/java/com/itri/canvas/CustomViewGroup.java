@@ -4,7 +4,6 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.view.View;
-import android.widget.RelativeLayout;
 
 import androidx.annotation.Nullable;
 
@@ -12,7 +11,7 @@ public class CustomViewGroup extends View {
 
     Context context;
     private CustomViewGroup rootLayout;
-    CircleCanvas circleCanvas_1, circleCanvas_2;
+    CirclePointer circlePointer_1, circlePointer_2;
 
     public CustomViewGroup(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
@@ -22,8 +21,8 @@ public class CustomViewGroup extends View {
 
     private void initial(){
         //rootLayout = (RelativeLayout) findViewById(R.id.GroupView_root);
-        circleCanvas_1 = (CircleCanvas) findViewById(R.id.circle_1);
-        circleCanvas_2 = (CircleCanvas) findViewById(R.id.circle_2);
+        circlePointer_1 = (CirclePointer) findViewById(R.id.circle_1);
+        circlePointer_2 = (CirclePointer) findViewById(R.id.circle_2);
     }
 
     @Override

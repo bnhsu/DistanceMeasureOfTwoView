@@ -13,7 +13,7 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
-public class CircleCanvas extends View {
+public class CirclePointer extends View {
 
     Canvas canvas;
     Paint paint;
@@ -27,7 +27,7 @@ public class CircleCanvas extends View {
 
     private Bitmap canvasBitmap;
 
-    public CircleCanvas(Context context, @Nullable AttributeSet attrs) {
+    public CirclePointer(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
     }
 
